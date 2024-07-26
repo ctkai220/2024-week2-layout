@@ -1,3 +1,173 @@
-.index-title {
-  font-size: 100px;
+*,*:before,*:after{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Bruno Ace SC", sans-serif;
+  line-height: 1.5;
+}
+
+img{
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.container{
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.d-block{
+  display: block;
+}
+.d-flex{
+  display: flex;
+}
+.jc-sb{
+  justify-content: space-between;
+}
+.ai-c{
+  align-items: center;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+/* 字體大小 */
+.fz-20{
+  font-size: 20px;
+}
+.fz-24{
+  font-size: 24px;
+}
+.fz-64{
+  font-size: 64px;
+}
+.fz-128{
+  font-size: 128px;
+}
+/* 間距距離 */
+.p-16{
+  padding: 16px;
+}
+.py-40{
+  padding: 40px 0;
+}
+.py-96{
+  padding: 96px 0;
+}
+.py-160{
+  padding: 160px 0;
+}
+.pt-72{
+  padding-top: 72px;
+}
+.pl-110{
+  padding-left: 110px;
+}
+.mr-20{
+  margin-right: 20px;
+}
+.mr-24{
+  margin-right: 24px;
+}
+.mb-24{
+  margin-bottom: 24px;
+}
+.mb-28{
+  margin-bottom: 28px;
+}
+.mt-32{
+  margin-top: 32px;
+}
+.mt-36{
+  margin-top: 36px;
+}
+.mt-auto{
+  margin-top: auto;
+}
+.ml-auto{
+  margin-left: auto;
+}
+/* 顏色 */
+.color-b{
+  color: #000;
+}
+.color-w{
+  color: #fff;
+}
+.bg-w{
+  background: #fff;
+}
+.bg-b{
+  background: #000;
+}
+
+nav li a{
+  max-width: 278px;
+  color: #D1D1D1;
+}
+nav li a:hover{
+  color: #00FFA3;
+}
+
+.personal-txt h1{
+  color: #00FFA3;
+  text-align: right;
+}
+.personal-txt h2{
+  color: #fff;
+}
+.button{
+  width: 186px;
+  padding: 12px 24px;
+  border-radius: 32px;
+}
+
+.button:hover{
+  background: #00FFA3;
+}
+
+.Introduction{
+  background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true)no-repeat 0 0;
+  background-size: cover;
+  height: calc(100vh);
+}
+.Intro-txt{
+  width: 526px;
+  color: #fff;
+}
+.about-info{
+  width: 636px;
+  margin: 0 -12px;
+}
+.column{
+  width: 50%;
+  padding: 0 12px;
+  margin-bottom: 24px;
+}
+.content{
+  padding: 16px;
+  border: solid 1px #E3E3E3;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.08));
+}
+
+.feature{
+  width: 526px;
+}
+.contact{
+  background: linear-gradient(180deg, rgba(5,0,20,1) 0%, rgba(1,2,30,0.89) 100%);
+  color: #fff;
+}
+
+.social-media li a:hover{
+  filter: drop-shadow(0 0 16px rgba(144, 148, 255, 0.9));
+  /* filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25)); */
+  
+}
+.project-text{
+  flex-direction: column;
+}
+
+footer{
+  text-align: center;
 }
